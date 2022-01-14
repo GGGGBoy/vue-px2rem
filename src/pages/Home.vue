@@ -87,61 +87,60 @@ export default {
 .contanier {
   .header {
     width: 100%;
-    height: (37 / @font);
-    // height: 37px;
+    height: 37px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     .navBtn {
       display: inline-block;
-      height: (32 / @font);
-      width: (32 / @font);
+      height: 32px;
+      width: 32px;
       background-size: 100% 100%;
       background-image: url(../assets/img/navBtn.png);
     }
 
     .serchWrap {
-      height: (32 / @font);
-      width: (279 / @font);
+      height: 32px;
+      width: 279px;
 
       span {
-        width: (107 / @font);
-        height: (30 / @font);
+        width: 107px;
+        height: 30px;
         float: left;
-        font-size: (18 / @font);
+        font-size: 18px;
         border: solid 1px #1296db;
-        border-radius: (30 / @font) 0 0 (30 / @font);
+        border-radius: 30px 0 0 30px;
         text-align: center;
-        line-height: (30 / @font);
+        line-height: 30px;
         font-weight: 500;
         color: #1296db;
       }
 
       .serch {
-        width: (168 / @font);
-        height: (30 / @font);
+        width: 168px;
+        height: 30px;
         float: left;
 
-        width: (168 / @font);
-        height: (30 / @font);
+        width: 168px;
+        height: 30px;
         border: solid 1px #1296db;
-        border-radius: 0 (30 / @font) (30 / @font) 0;
+        border-radius: 0 30px 30px 0;
         border-left: none;
 
-        font-size: (14 / @font);
-        text-indent: (14 / @font);
+        font-size:14px;
+        text-indent:14px;
         color: #1296db;
-        line-height: (30 / @font);
+        line-height: 30px;
         input {
           float: left;
-          width: (168 / @font);
-          height: (30 / @font);
+          width: 168px;
+          height: 30px;
           border: solid 1px #1296db;
-          border-radius: 0 (30 / @font) (30 / @font) 0;
+          border-radius: 0 30px 30px 0;
           border-left: none;
           overflow: hidden;
           outline: none;
-          text-indent: (14 / @font);
+          text-indent:14px;
         }
       }
 
@@ -155,8 +154,8 @@ export default {
           background-position: 50% 50%;
           background-repeat: no-repeat;
           background-image: url(../assets/img/serch.png);
-          width: (25 / @font);
-          height: (25 / @font);
+          width: 25px;
+          height: 25px;
           top: 50%;
           transform: translateY(-50%);
           left: (8 / @font);
@@ -166,8 +165,8 @@ export default {
     }
 
     .userIcon {
-      width: (30 / @font);
-      height: (30 / @font);
+      width: 30px;
+      height: 30px;
       background-size: 100% 100%;
       background-image: url(../assets/img/userIcon.png);
     }
@@ -175,7 +174,7 @@ export default {
 
   .banner {
     width: 100%;
-    max-height: (500 / @font);
+    max-height: 500px;
     overflow: hidden;
 
     .my-swipe {
@@ -201,15 +200,15 @@ export default {
     ul {
       display: flex;
       flex-wrap: wrap;
-      font-size: (12 / @font);
+      font-size: 12px;
       li {
         display: inline-block;
         width: 20%;
         text-align: center;
         img {
-          width: (40 / @font);
+          width: 40px;
           display: block;
-          margin: (6 / @font) auto;
+          margin: 6px auto;
         }
       }
     }

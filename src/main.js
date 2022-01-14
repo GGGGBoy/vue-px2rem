@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import './assets/css/reset.css';
 import './assets/js/mock.js';
+import 'amfe-flexible';
 import Axios from 'axios';
 import router from  './router/index.js';
 import VueRouter from 'vue-router';
