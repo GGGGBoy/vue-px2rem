@@ -3,10 +3,12 @@ module.exports = {
     css: {
         loaderOptions: {
             postcss: {
-                plugins: [ require('autoprefixer'), require('postcss-pxtorem')({
-                    rootValue: 37.5,
-                    propList: ['*']
-                  })]
+                plugins: [
+                    require('autoprefixer'),
+                    require('postcss-pxtorem')({
+                        rootValue: 37.5,
+                        propList: ['*']
+                    })]
             }
         }
     }
